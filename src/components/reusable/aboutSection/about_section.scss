@@ -1,0 +1,30 @@
+.about_section_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.about_section_image{
+  position: relative;
+  width: 70%;
+
+  .image-stack__item--bottom {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    z-index: -1;
+  }
+
+  .image-stack__item--top {
+    position: absolute;
+    left: 5%;
+    padding-top: 19rem;
+  }
+
+  img {
+    display: block;
+  }
+
+  .about_section_text{
+  }
+}
