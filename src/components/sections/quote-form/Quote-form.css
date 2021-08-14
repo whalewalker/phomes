@@ -1,0 +1,131 @@
+.form-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height:90vh;
+    background: #f7fcff;
+}
+
+.media-content{
+    width: 500px;
+    margin-top: 1rem;
+}
+
+.media-content h1{
+    margin-bottom: 1rem;
+    color: #0A2463;
+    font-size: 2.5rem;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+
+}
+
+.form-wrapper span{
+    color: #FC5E03;
+}
+
+.media-content p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #1A1A1A;
+}
+
+.media .img{
+}
+
+.media-section{
+    display: grid;
+    grid-template-columns: 130px 250px;
+    align-content: center;
+}
+
+.form{
+    background: #FFFFFF;
+    box-shadow: 0 25px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 1rem 2rem;
+}
+
+.form h3{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #0A2463;
+}
+
+.form p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.form input{
+    width: 100%;
+    height: 52px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    outline: none;
+}
+
+.form input[type=submit]{
+    cursor: pointer;
+    background: #FC5E03;
+    border-radius: 100px;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.form input::placeholder{
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    color: #7A7A7A;
+    text-transform: capitalize;
+}
+
+.form textarea{
+    width: 100%;
+    height: 150px;
+    padding: 1rem;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: navajowhite;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+.form .input-control{
+    margin: 1rem 0;
+
+}
+
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-wrapper .input-control:first-child{
+    margin-right: 1rem;
+}
+
+.form p{
+    line-height: 2;
+}
+
+.form span{
+    text-decoration: underline;
+}
+
+
