@@ -1,0 +1,54 @@
+.about-section{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500vw;
+    margin: 0 auto;
+}
+
+.image-wrapper{
+    position: relative;
+    margin-right: 10rem;
+}
+
+.image-wrapper-down{
+    position:relative;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.image-wrapper-top{
+    position:absolute;
+    top: 330px;
+    left: -100px;
+    z-index: 2;
+}
+
+.about-subsection{
+    width: 30%;
+}
+
+.about-subsection h2{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #0A2463;
+}
+
+.about-subsection span{
+    color: #FC5E03;
+}
+
+.about-subsection p{
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+
