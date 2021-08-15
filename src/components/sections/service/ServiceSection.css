@@ -1,0 +1,62 @@
+.service-section{
+    min-height: 50vh;
+    padding: 3rem 0;
+}
+
+.service-section header{
+    display: grid;
+    place-items: center;
+}
+
+.service-section header h2{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #0A2463;
+}
+
+.service-section header p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1A1A1A;
+}
+
+.service-section a{
+    margin: 2rem auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    color: #FC5E03;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.service-section a img{
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.service-section .link{
+    display: grid;
+    place-content: start;
+}
+
+.service-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin: 3rem 0;
+}
+
+.service-cards > div{
+    margin: 1rem 2rem;
+}
