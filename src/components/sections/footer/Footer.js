@@ -23,17 +23,30 @@ const Footer = () => {
                         </div>
                         <div className="brand-nav">
                               <div className="nav-about">
-
+                                    <p>   PTwins Home Nigeria Limited is a property consulting company that strives to help its clients find the best housing property for them</p>
                               </div>
                               <div className="nav-company">
-
+                                    <h2>Comapny</h2>
+                                    <ul>
+                                          <li onClick = {()=> history.push("/about")}>About Us</li>
+                                          <li onClick = {()=> history.push("/services")}>Services</li>
+                                          <li onClick = {()=> history.push("/faq")}>F.A.Q</li>
+                                    </ul>
                               </div>
                               <div className="nav-contact">
-
+                              <h2>Contact Us</h2>
+                                    <ul>
+                                          <li>About Us</li>
+                                          <li>
+                                                <span>(+234)-810-987-7665,</span>
+                                                <span>(+234)-810-987-7666,</span>
+                                          </li>
+                                          <li>22, Address Street, Lagos City, Lagos, Nigeria </li>
+                                    </ul>
                               </div>
                         </div>
                         <div className="brand-footer">
-                              <p></p>
+                              <p>&copy; 2021, PTwins Home Nigeria Limited</p>
                               <div className="socials">
                               <img src={require("../../../static/images/facebook.svg").default} alt="facebook"/>
                               <img src={require("../../../static/images/twitter.svg").default} alt="twitter"/>
