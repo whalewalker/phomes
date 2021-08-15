@@ -36,5 +36,19 @@
 
 .brand{
       background-color: #0A2463;
-      padding: 1.5rem;
+      padding: 3rem;
+}
+
+.brand .brand-nav{
+      display: flex;
+      justify-content: space-between;
+}
+.brand-nav .nav-about,
+.brand-nav .nav-company,
+.brand-nav .nav-contact{
+     width:30%;
+}
+
+.brand-nav .nav-about{
+      padd
 }
