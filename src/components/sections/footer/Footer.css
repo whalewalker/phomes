@@ -1,0 +1,40 @@
+.consultation{
+      text-align: center;
+      padding-bottom: 5rem;
+}
+
+.consultation h1{
+      margin-top: 5rem;
+      margin-bottom: 1rem;
+      color: #0A2463;
+      font-family: Montserrat;
+      font-size: 52px;
+}
+
+.consultation  p{
+      width: 50%;
+      margin: 0 auto 1rem auto;
+      font-family: Roboto;
+      font-size: 1.1rem;
+      line-height: 1.7;
+}
+
+.consultation a{
+      margin: 2rem auto;
+      display: flex;
+      align-content: start;
+      align-items: center;
+      justify-content: center;
+      background-color: #FC5E03;
+      padding: 0.6rem 1rem;
+      border-radius: 20px;
+      cursor: pointer;
+      color: white;
+      width: 230px;
+      text-transform: capitalize;
+}
+
+.brand{
+      background-color: #0A2463;
+      padding: 1.5rem;
+}
