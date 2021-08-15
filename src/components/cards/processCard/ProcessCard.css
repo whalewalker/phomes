@@ -1,0 +1,17 @@
+.process-card{
+    margin: 2rem 0;
+}
+
+.process-card h3{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.process-card p{
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}

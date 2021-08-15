@@ -44,4 +44,8 @@ export const BlueBtn = styled(Link)`
 export const Bar = styled.div`
   border: 1px solid rgba(10, 36, 99, 0.22);
   height: 300px;
+
+  @media screen  and (max-width: 1272px){
+    display: none;
+  }
   `;
