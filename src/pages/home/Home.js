@@ -10,6 +10,7 @@ const Home = () => {
         <>
             <HomeSection/>
             <AboutSection/>
+            <ServiceSection/>
             <ChooseSection/>
             <Footer/>
         </>

@@ -31,29 +31,6 @@
     margin: 0.5rem 0 0;
 }
 
-.text-content a{
-    margin: 2rem auto;
-    display: flex;
-    align-content: start;
-    align-items: center;
-    justify-content: center;
-    background-color: #FC5E03;
-    padding: 0.6rem 1rem;
-    border-radius: 20px;
-    cursor: pointer;
-    color: white;
-    width: 230px;
-}
-
- .text-content a img{
-    margin-left: 1rem;
-}
-
- .text-content .link{
-     display: grid;
-     place-content: start;
- }
-
  .choose-section .card-section{
      display: flex;
      align-items: center;
@@ -76,6 +53,11 @@
      height: 70px;
      position: relative;
      left: -10%;
+ }
+
+ .link{
+     display: grid;
+     place-items: start;
  }
 
 @media screen and (max-width: 1522px){

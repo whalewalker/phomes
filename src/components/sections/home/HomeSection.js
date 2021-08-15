@@ -1,7 +1,7 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 import "./Home-section.css"
 import {HomeText} from "../../../data/HomeData";
+import {Button} from "../../reuseable/buttons/Button";
 
 const HomeSection = () => {
 
@@ -15,10 +15,7 @@ const HomeSection = () => {
                         {text}
                     </p>
 
-                    <Link to="/quote" className="link">
-                        Get a Free Quote
-                        <img src={require("../../../static/images/arrow.svg").default} alt=""/>
-                    </Link>
+                    <Button text="Get a Free Quote"/>
 
                 </header>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 import "./ChooseSection.css";
+import {Button} from "../../reuseable/buttons/Button";
 
 const ChooseSection = () => {
     return (
@@ -11,10 +11,7 @@ const ChooseSection = () => {
                     and needs.</p>
 
                 <div className="link">
-                    <Link to="/quote">
-                        Get a Free Quote
-                        <img src={require("../../../static/images/arrow.svg").default} alt=""/>
-                    </Link>
+                    <Button text="Get a Free Quote"/>
                 </div>
 
             </div>

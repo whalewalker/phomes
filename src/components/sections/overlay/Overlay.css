@@ -1,0 +1,40 @@
+.image-wrapper{
+    position: relative;
+    margin-right: 10rem;
+}
+
+.image-wrapper-down{
+    position:relative;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.image-wrapper-top{
+    position:absolute;
+    top: 330px;
+    left: -100px;
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 920px) {
+    .image-wrapper{
+        position: static;
+    }
+
+    .image-wrapper-down{
+        position: static;
+    }
+    .image-wrapper-top{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 890px) {
+    .image-wrapper{
+        display: none;
+    }
+
+}

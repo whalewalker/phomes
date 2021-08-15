@@ -1,8 +1,7 @@
 import React from 'react'
-import { useHistory , Link } from 'react-router-dom'
+import {useHistory} from 'react-router-dom'
 import './Footer.css'
-
-
+import {Button} from "../../reuseable/buttons/Button";
 
 
 const Footer = () => {
@@ -12,10 +11,7 @@ const Footer = () => {
                   <div className="consultation">
                         <h1>Get Your Free <span className="text-secondary">Consultation</span></h1>
                         <p>Discuss with our property experts to help you find the best options suited to your exact needs. Click to get Started. </p>
-                       <Link to = "/quote">
-                             Get a free quote  &nbsp; 
-                             <img src={require("../../../static/images/arrow.png").default} alt="arrow"/>
-                       </Link>
+                        <Button text="Get a Free Quote"/>
                   </div> 
                   <div className="brand">
                         <div className="brand-img">
