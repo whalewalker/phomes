@@ -40,3 +40,8 @@ export const BlueBtn = styled(Link)`
     color: #fff;
   }
   `
+
+export const Bar = styled.div`
+  border: 1px solid rgba(10, 36, 99, 0.22);
+  height: 300px;
+  `;

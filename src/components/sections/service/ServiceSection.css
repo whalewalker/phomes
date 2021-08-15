@@ -5,31 +5,31 @@
 
 .service-section .link{
     display: grid;
-    place-content: start;
+    place-content:center;
 }
 
 .service-cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .service-cards > div{
-    margin: 1rem 2rem;
+    margin: 3rem 2rem;
 }
 
-@media screen  and (max-width: 1188px){
-    .service-cards{
-        grid-template-columns: repeat(2, 1fr);
-        text-align: left;
-    }
-}
+/*@media screen  and (max-width: 1188px){*/
+/*    .service-cards{*/
+/*        grid-template-columns: repeat(2, 1fr);*/
+/*        text-align: left;*/
+/*    }*/
+/*}*/
 
-@media screen  and (max-width: 800px){
-    .service-cards{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+/*@media screen  and (max-width: 800px){*/
+/*    .service-cards{*/
+/*        grid-template-columns: repeat(1, 1fr);*/
+/*    }*/
+/*}*/
 
 
