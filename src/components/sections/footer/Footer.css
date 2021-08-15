@@ -56,4 +56,11 @@
 .brand-nav .nav-company,
 .brand-nav .nav-contact{
      width:30%;
+     color: #fff;
 }
+ .nav-about,
+ .nav-company ul,
+ .nav-contact ul{
+      margin-top: 1.5rem;
+}
+
