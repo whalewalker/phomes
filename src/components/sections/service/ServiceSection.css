@@ -1,11 +1,17 @@
 .service-section{
     min-height: 50vh;
     padding: 3rem 0;
+    color: #0A2463;
 }
 
 .service-section .link{
     display: grid;
     place-content:center;
+}
+
+
+.service-section p{
+    color: #1A1A1A;
 }
 
 .service-cards{

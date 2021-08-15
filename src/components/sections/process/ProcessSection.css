@@ -1,8 +1,12 @@
 .process-section{
-    background-color: #7892d2;
+    background-color: #0A2463;
     color: white;
     min-height: 80vh;
     padding: 3rem 2rem;
+}
+
+.process-section p{
+    color: #E5E5E5;
 }
 
 .process-subsection{
@@ -14,4 +18,22 @@
 
 .linkage{
     width: 30%;
+}
+
+@media screen and (max-width: 1220px) {
+    .linkage{
+        width: 50%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 890px) {
+
+    .linkage{
+        width: 90%;
+    }
+
+
 }
