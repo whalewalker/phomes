@@ -37,7 +37,7 @@ const Footer = () => {
                                                 <span>(+234)-810-987-7665,</span>
                                                 <span>(+234)-810-987-7666,</span>
                                           </li>
-                                          <li>22, Address Street, Lagos City, Lagos, Nigeria </li>
+                                          <li>22,Herbert Macaulay Way, Yaba, Lagos, Nigeria </li>
                                     </ul>
                               </div>
                         </div>
