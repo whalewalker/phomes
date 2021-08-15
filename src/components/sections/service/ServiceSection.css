@@ -1,11 +1,17 @@
 .service-section{
     min-height: 50vh;
     padding: 3rem 0;
+    color: #0A2463;
 }
 
 .service-section .link{
     display: grid;
     place-content:center;
+}
+
+
+.service-section p{
+    color: #1A1A1A;
 }
 
 .service-cards{
@@ -19,17 +25,6 @@
     margin: 3rem 2rem;
 }
 
-/*@media screen  and (max-width: 1188px){*/
-/*    .service-cards{*/
-/*        grid-template-columns: repeat(2, 1fr);*/
-/*        text-align: left;*/
-/*    }*/
-/*}*/
 
-/*@media screen  and (max-width: 800px){*/
-/*    .service-cards{*/
-/*        grid-template-columns: repeat(1, 1fr);*/
-/*    }*/
-/*}*/
 
 
