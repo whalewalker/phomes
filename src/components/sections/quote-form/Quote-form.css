@@ -42,6 +42,7 @@
     display: grid;
     grid-template-columns: 130px 250px;
     align-content: center;
+    position: relative;
 }
 
 .form{
