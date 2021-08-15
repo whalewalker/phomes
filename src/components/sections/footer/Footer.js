@@ -36,7 +36,7 @@ const Footer = () => {
                               <div className="nav-contact">
                               <h2>Contact Us</h2>
                                     <ul>
-                                          <li>About Us</li>
+                                          <li>realgast@gmail.com</li>
                                           <li>
                                                 <span>(+234)-810-987-7665,</span>
                                                 <span>(+234)-810-987-7666,</span>
