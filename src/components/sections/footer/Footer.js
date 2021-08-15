@@ -22,7 +22,7 @@ const Footer = () => {
                                     <p>   PTwins Home Nigeria Limited is a property consulting company that strives to help its clients find the best housing property for them</p>
                               </div>
                               <div className="nav-company">
-                                    <h2>Comapny</h2>
+                                    <h2>Company</h2>
                                     <ul>
                                           <li onClick = {()=> history.push("/about")}>About Us</li>
                                           <li onClick = {()=> history.push("/services")}>Services</li>
@@ -37,7 +37,7 @@ const Footer = () => {
                                                 <span>(+234)-810-987-7665,</span>
                                                 <span>(+234)-810-987-7666,</span>
                                           </li>
-                                          <li>22, Address Street, Lagos City, Lagos, Nigeria </li>
+                                          <li>22,Herbert Macaulay Way, Yaba, Lagos, Nigeria </li>
                                     </ul>
                               </div>
                         </div>
