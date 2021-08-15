@@ -22,7 +22,7 @@ const AboutSection = () => {
                 <div className="link">
                     <Link to="/quote">
                         Get a Free Quote
-                        <img src={require("../../../static/images/arrow.svg").default} alt=""/>
+                        <img src={require("../../../static/images/arrow2.svg").default} alt=""/>
                     </Link>
                 </div>
             </div>
