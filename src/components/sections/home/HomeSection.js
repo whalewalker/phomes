@@ -7,7 +7,7 @@ const HomeSection = () => {
 
     const {header, text, span} = HomeText;
     return (
-        <div className="home-section" style={{backgroundColor: "#E5E5E5"}}>
+        <div className="home-section" style={{background: "#f7fcff"}}>
             <div className="home-sub-section">
                 <header>
                     <h1>{header} <span>{span}</span>.</h1>
