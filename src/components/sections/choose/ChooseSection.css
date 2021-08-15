@@ -1,0 +1,106 @@
+.choose-section{
+    background-color: #0A2463;
+    color: white;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-content {
+    width: 400px;
+}
+
+.text-content h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.choose-section h2, h4{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.choose-section p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0.5rem 0 0;
+}
+
+.text-content a{
+    margin: 2rem auto;
+    display: flex;
+    align-content: start;
+    align-items: center;
+    justify-content: center;
+    background-color: #FC5E03;
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    width: 230px;
+}
+
+ .text-content a img{
+    margin-left: 1rem;
+}
+
+ .text-content .link{
+     display: grid;
+     place-content: start;
+ }
+
+ .choose-section .card-section{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     width: 40%;
+ }
+
+ .card-section div{
+     width: 300px;
+     height: 200px;
+     margin: 2rem 0;
+ }
+
+ .card-section div h4{
+    font-size: 1.5rem;
+ }
+
+ .card-section .img-container{
+     height: 70px;
+     position: relative;
+     left: -10%;
+ }
+
+@media screen and (max-width: 1522px){
+    .choose-section{
+        padding: 0 2rem;
+    }
+    .choose-section .card-section{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 1110px){
+    .choose-section{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        padding: 2rem 0 0;
+    }
+    .text-content {
+        width: 70%;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+}
