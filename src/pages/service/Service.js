@@ -3,6 +3,7 @@ import {ServiceText} from "../../data/HomeData";
 import TextCenter from "../../components/sections/text-center/TextCenter";
 import ChooseSection from "../../components/sections/choose/ChooseSection";
 import Footer from "../../components/sections/footer/Footer";
+import CarouselSlider from "../../components/sections/carousel/CarouselSlider";
 
 const Service = () => {
     const {span, text, header} = ServiceText;
@@ -10,6 +11,7 @@ const Service = () => {
         <>
             <TextCenter span={span} text={text} header={header}/>
             <ChooseSection/>
+            <CarouselSlider/>
             <Footer/>
         </>
     );
