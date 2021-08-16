@@ -35,14 +35,16 @@
     color: #1A1A1A;
 }
 
-.media .img{
+.media{
+    margin-top: 2rem;
 }
 
 .media-section{
-    display: grid;
-    grid-template-columns: 130px 250px;
-    align-content: center;
     position: relative;
+    display: grid;
+    grid-template-columns: 120px 250px;
+    align-content: center;
+    left: -10%;
 }
 
 .form{
@@ -127,6 +129,39 @@
 
 .form span{
     text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .form-wrapper{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .form-wrapper > div{
+        margin-bottom: 2rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .form-wrapper{
+        padding: 0 1rem;
+    }
+
+
+    .form{
+        width: 90%;
+    }
+
+    .media-content{
+        width: 90%;
+        place-items: center;
+    }
+
+
 }
 
 
