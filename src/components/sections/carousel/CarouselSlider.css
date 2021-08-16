@@ -1,0 +1,100 @@
+.carousel-container {
+    min-height: 70vh;
+    margin: 2rem auto;
+    color: #0A2463;
+}
+
+
+
+.BrainhubCarousel__container {
+    width: 80%;
+    margin: 4rem auto;
+}
+
+.BrainhubCarousel__arrows{
+    /*position: relative;*/
+    /*padding: 20px;*/
+    /*border: none;*/
+    /*overflow: hidden;*/
+    /*outline: 0;*/
+    /*font-size: 0;*/
+    /*line-height: 0;*/
+    background-color: #0A2463;
+}
+
+
+.carousel-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1737px){
+    .BrainhubCarousel__container {
+        width: 90%;
+        margin: 4rem auto;
+    }
+}
+
+@media screen and (max-width: 1555px){
+    .BrainhubCarousel__container {
+        width: 100%;
+        margin: 4rem auto;
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 1471px){
+    .BrainhubCarouselItem{
+        margin: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 1320px){
+
+    .BrainhubCarouselItem img{
+        width: 500px !important;
+        height: 250px !important;
+    }
+}
+
+@media screen and (max-width: 862px){
+
+    .BrainhubCarouselItem img{
+        width: 400px !important;
+        height: 200px !important;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .BrainhubCarouselItem{
+        margin: 3.5rem !important;
+    }
+
+    .BrainhubCarouselItem img{
+        width: 350px !important;
+        height: 200px !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .BrainhubCarouselItem{
+        margin: 4rem !important;
+    }
+
+    .BrainhubCarouselItem img{
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .BrainhubCarouselItem{
+        margin: 2.5rem !important;
+    }
+
+    .BrainhubCarouselItem img{
+        width: 300px !important;
+        height: 150px !important;
+    }
+}

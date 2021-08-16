@@ -5,7 +5,9 @@ import ChooseSection from "../../components/sections/choose/ChooseSection";
 import Footer from '../../components/sections/footer/Footer';
 import ServiceSection from "../../components/sections/service/ServiceSection";
 import ProcessSection from "../../components/sections/process/ProcessSection";
-import ServiceGrid from '../../components/sections/servicegrid/ServiceGrid';
+
+import CarouselSlider from "../../components/sections/carousel/CarouselSlider";
+
 
 const Home = () => {
     return (
@@ -14,9 +16,10 @@ const Home = () => {
             <AboutSection/>
             <ServiceSection/>
             <ProcessSection/>
+            <CarouselSlider/>
             <ChooseSection/>
             <Footer/>
-            <ServiceGrid/>
+   
         </>
     );
 };
