@@ -1,0 +1,45 @@
+.faq{
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.faq .faq-question{
+    position: relative;
+    padding-right: 80px;
+    transition: all 0.4s ease;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #0A2463;
+
+}
+
+
+
+.faq .faq-answer{
+    opacity: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 0.4s ease;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    line-height: 32px;
+    color: #1A1A1A;
+}
+
+.faq.open .faq-question{
+    margin-bottom: 1rem;
+}
+
+.faq.open .faq-answer{
+    max-height: 100px;
+    opacity: 1;
+    margin: 0.3rem 0;
+}
+
+.faq .header{
+    display: flex;
+    justify-content: space-between;
+}
