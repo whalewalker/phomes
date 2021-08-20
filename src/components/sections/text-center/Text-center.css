@@ -6,9 +6,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
     flex-direction: column;
-    min-height: 60vh;
+    min-height: 50vh;
     padding: 0 2rem;
 }
 
@@ -34,7 +33,7 @@
     font-size: 16px;
     line-height: 32px;
     color: #1A1A1A;
-    width: 700px;
+    width: 550px;
 }
 
 .text-center .link{

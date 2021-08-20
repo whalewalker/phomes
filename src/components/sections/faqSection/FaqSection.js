@@ -7,23 +7,23 @@ const FaqSection = () => {
     const initialData = [
         {
             title: "Sample Questions for the faqSection area of things ?",
-            content: "lorem ipsum your way throught the development phase, and move at a speed of light. d of light. lorem",
-            open:false,
+            content: "lorem ipsum your way throughout the development phase, and move at a speed of light. d of light. lorem",
+            open: false,
         },
         {
             title: "Sample Questions for the faqSection area of things ?",
-            content: "lorem ipsum your way throught the development phase, and move at a speed of light. ",
-            open:false,
+            content: "lorem ipsum your way throughout the development phase, and move at a speed of light. ",
+            open: false,
         },
         {
             title: "Sample Questions for the faqSection area of things ?",
-            content: "lorem ipsum your way throught the development phase, and move at a speed of light. ",
-            open:false,
+            content: "lorem ipsum your way throughout the development phase, and move at a speed of light. ",
+            open: false,
         },
         {
             title: "Sample Questions for the faqSection area of things ?",
-            content: "lorem ipsum your way throught the development phase, and move at a speed of light. ",
-            open:false,
+            content: "lorem ipsum your way throughout the development phase, and move at a speed of light. ",
+            open: false,
         },
         {
             title: "Sample Questions for the faqSection area of things ?",
@@ -37,8 +37,8 @@ const FaqSection = () => {
         },
         {
             title: "Sample Questions for the faqSection area of things ?",
-            content: "lorem ipsum your way throught the development phase, and move at a speed of light. ",
-            open:false,
+            content: "lorem ipsum your way throughout the development phase, and move at a speed of light. ",
+            open: false,
         },
     ];
 

@@ -10,7 +10,7 @@ const FAQ = ({faq, toggleFaq, index}) => {
             onClick={() => toggleFaq(index)}
         >
 
-            <div className="header">
+            <div className="faq-header">
                 <h3 className="faq-question">
                     {title}
                 </h3>

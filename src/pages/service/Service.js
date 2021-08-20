@@ -5,6 +5,7 @@ import ChooseSection from "../../components/sections/choose/ChooseSection";
 import Footer from "../../components/sections/footer/Footer";
 import ServiceGrid from '../../components/sections/servicegrid/ServiceGrid';
 import CarouselSlider from "../../components/sections/carousel/CarouselSlider";
+import Consultant from "../../components/reuseable/consultant/Consultant";
 
 const Service = () => {
     const {span, text, header} = ServiceText;
@@ -14,6 +15,7 @@ const Service = () => {
             <ServiceGrid/>
             <ChooseSection/>
             <CarouselSlider/>
+            <Consultant/>
             <Footer/>
         </>
     );

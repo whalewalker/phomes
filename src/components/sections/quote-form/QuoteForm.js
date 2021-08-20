@@ -1,73 +1,27 @@
 import React, {useState} from 'react';
 import "./Quote-form.css";
-import {sendMail} from "../../../EmailJs";
+import emailjs from "emailjs-com";
 
 const QuoteForm = () => {
-
-    const validEmailRegex = RegExp( /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i);
-
-    const validateForm = errors =>{
-        let valid = true;
-        Object.values(errors).forEach(value => value.length > 0 && (valid = false));
-        return valid;
-    }
-    // const data = {};
-
-    const [quote, setQuote] = useState({});
-    const [errors, setErrors] = useState({
-            fullName: "",
-            email: '',
-            phoneNumber: '',
-    })
+    const [quote, setQuote] = useState("");
 
 
-
-
-
-    const changeHandler = event => {
+    const submitHandler = event => {
         event.preventDefault();
-        const {name, value} = event.target;
-
-        // eslint-disable-next-line default-case
-        switch (name) {
-            case "fullName":
-                errors.fullName = value.length < 5 ? "Full Name must be at least 5 characters long!" : "";
-                break;
-
-            case "email":
-                errors.email = validEmailRegex.test(value) ? "" : "Email is not valid!";
-                break;
-
-            case "phoneNumber":
-                errors.phoneNumber = (isNaN(value) && (value.length < 11 || value.length > 11)) ? "Number must be a number and contain 11 digit" : "";
-                break;
-        }
-
-
-        const updatedDetails = {
-            ...quote
-        };
-        updatedDetails[name] = value;
-        setQuote(updatedDetails);
-
-
-        const updatedError = {
-            ...errors
-        }
-        updatedError[name] = errors[name];
-        setErrors(updatedError);
-
+        emailjs.sendForm('service_1sufxso', 'pthomes_template', event.target, 'user_mmydYoH3id1SB7HG5vhIi')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        event.target.reset();
     }
 
-    const submitHandler = event =>{
-        event.preventDefault();
-        if (validateForm(errors)){
-            sendMail(quote)
-            console.log(quote);
-        }else {
-            console.log("Invalid Form")
-        }
+    function changeHandler(e) {
+        e.persist();
+        setQuote(e.target.value);
     }
+
 
     return (
         <div className="form-wrapper">
@@ -79,7 +33,7 @@ const QuoteForm = () => {
                 <div className="media">
                     <div className="media-section">
                         <img src={require("../../../static/images/phone.png").default} alt="phone"/>
-                        <p>(+234) - 810 - 987 - 7665 <br/>
+                        <p className="phone"> (+234) - 810 - 987 - 7665 <br/>
                             (+234) - 810 - 987 - 7665.</p>
                     </div>
                     <div className="media-section">
@@ -98,25 +52,24 @@ const QuoteForm = () => {
 
                 <form onSubmit={submitHandler} noValidate>
                     <div className="input-control">
-                        <input type="text" placeholder="Your Name" name="fullName" value={quote.fullName} onChange={changeHandler}/>
-                        {errors.fullName.length > 0 &&
-                        <span className='error'>{errors.fullName}</span>}
+                        <input type="text" placeholder="Your Name" name="name" value={quote.name}
+                               onChange={changeHandler}/>
+
                     </div>
                     <div className="input-wrapper">
                         <div className="input-control">
-                            <input type="email" value={quote.email}  name="email" placeholder="Email Address" onChange={changeHandler}/>
-                            {errors.email.length > 0 &&
-                            <span className='error'>{errors.email}</span>}
+                            <input type="email" value={quote.email} name="email" placeholder="Email Address"
+                                   onChange={changeHandler}/>
                         </div>
                         <div className="input-control">
-                            <input type="text" value={quote.phoneNumber}   name="phoneNumber" placeholder="Phone Number" onChange={changeHandler}/>
-                            {errors.phoneNumber.length > 0 &&
-                            <span className='error'>{errors.phoneNumber}</span>}
+                            <input type="text" value={quote.number} name="number" placeholder="Phone Number"
+                                   onChange={changeHandler}/>
                         </div>
                     </div>
 
                     <div className="input-control">
-                        <textarea name="text"  value={quote.text} cols="10" rows="10"  placeholder="Type Message" onChange={changeHandler}/>
+                        <textarea name="message" value={quote.message} cols="10" rows="10" placeholder="Type Message"
+                                  onChange={changeHandler}/>
                     </div>
                     <p>By clicking the send button, you agree to our <span>Terms of Use</span> .</p>
                     <div className="input-control">

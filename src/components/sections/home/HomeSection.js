@@ -14,9 +14,7 @@ const HomeSection = () => {
                     <p>
                         {text}
                     </p>
-
                     <Button text="Get a Free Quote"/>
-
                 </header>
             </div>
             <div className="home-sub-section image-content">

@@ -1,5 +1,24 @@
 .process-card{
-    margin: 2rem 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.radio-btn{
+    margin-right: 2rem;
+    margin-top: 0.3rem;
+}
+
+.radio-btn .connect{
+    margin: 0 1rem;
+}
+
+.connect div{
+    width: 1px;
+    height: 5px;
+    background-color: #FC5E03;
+    border-radius: 2px;
+    margin-bottom: 1rem;
 }
 
 .process-card h3{

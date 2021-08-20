@@ -1,7 +1,7 @@
 .choose-section{
     background-color: #0A2463;
     color: white;
-    min-height: 50vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -86,3 +86,10 @@
     }
 
 }
+
+@media screen and (max-width: 800px){
+    .choose-section{
+        min-height: 50vh;
+    }
+}
+
